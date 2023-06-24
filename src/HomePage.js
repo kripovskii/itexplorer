@@ -277,6 +277,7 @@ const HomePage = () => {
                   placeholder="Фио"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
+                  style={{ color: 'white' }}
                 />
                 <Input
                   mb={4}
@@ -284,6 +285,7 @@ const HomePage = () => {
                   placeholder="Телефон"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
+                  style={{ color: 'white' }}
                 />
                 <Input
                   mb={4}
@@ -291,12 +293,14 @@ const HomePage = () => {
                   placeholder="Электронная Почта"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  style={{ color: 'white' }}
                 />
                 <Textarea
                   mb={4}
                   placeholder="Ваш вопрос или сообщение"
                   value={question}
                   onChange={(e) => setQuestion(e.target.value)}
+                  style={{ color: 'white' }}
                 />
                 <Button type="Submit" colorScheme="teal" size="md">
                   Отпраить
